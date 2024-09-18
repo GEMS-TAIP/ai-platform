@@ -18,13 +18,13 @@ export default function Hero(){
             Supercharge the Classroom 
           </h1>
           <h1 className="text-8xl py-8 font-medium">
-            InsightAI
+            TAIP:AI
           </h1>
         </div>
 
         <div class="mt-5 max-w-3xl text-center mx-auto">
           <p class="text-lg text-gray-600 dark:text-gray-400">
-            InsightAI is based platform designed by students at UMD to boost student engagement while also providing helpful metrics to teachers
+            TAIP:AI is based platform designed by students at UMD to lighten teacher's workloads by assisting worksheet generation through AI
           </p>
         </div>
 
