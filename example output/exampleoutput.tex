@@ -1,0 +1,61 @@
+\documentclass{article}
+
+\usepackage{geometry}
+
+% Make header with name and date etc.
+\usepackage{fancyhdr}
+\lhead{Your Name\\BIOS 29326}
+\rhead{\today\\CT Problem Set}
+\thispagestyle{fancy}
+
+\usepackage[utf8]{inputenc}
+\setlength{\parindent}{0pt} % Don't indent new paragraphs
+\setlength{\headheight}{24pt} 
+
+\begin{document}
+
+\section{Radon Transform of a Gaussian}
+
+Calculate the Radon transform of $p(\xi, \phi)$ of $f(x,y) = e^{-x^2 - y^2}$. (Hint: there is symmetry you can exploit to simplify this problem).
+
+\vspace{12pt}
+
+% Your Answer goes here
+
+\section{Radon Transform of Shifted Function}
+
+Show that if the Radon transform of $f(x,y)$ is $p(\xi,\phi)$, then the Radon transform of $f(x-x_0,y-y_0)$ is $p(\xi-x_0\cos{\phi} - y_0\sin{\phi})$. Also give a graphical explanation of this result. [Hint: this is somewhat easier to prove if you use the delta function form of the Radon transform given in the book: $p(\xi,\phi) = \int_{-\infty}^\infty \int_{-\infty}^{\infty} f(x,y)\delta(x\cos{\phi} + y\sin{\phi} - \xi)\,dxdy$.]
+
+\vspace{12pt}
+
+% Your Answer goes here
+
+\section{Radon transform consistency conditions}
+
+Let $p(\xi,\phi)$ be a parallel-beam sinogram and $P_\phi(\nu)$ be its 1D Fourier transform with respect to $\xi$ for fixed $\phi$, as defined in the lecture. Show that 
+
+$$
+P_{\phi + \pi}(\nu) = P_{\phi}(-\nu)
+$$
+
+\vspace{12pt}
+
+% Your Answer goes here
+
+\section{Problem 6.12 from Prince book}
+
+Consider an object comprising two small metal pellets located at $(x,y) = (2,0)$ and $(2,2)$ and a pice of wire stretched straight between $(0,-2)$ and $(0,0)$.\\
+
+(a) Sketch this object. Assume $N$ photons are fired at each lateral position $\ell$ in a parallel-ray configuration. For simplicity, assumes that each metal object stops 1/2 the photons that are incident upon it no matter what angle it is hit.\\
+
+(b) Sketch the number of photons you would expect to see as a function of $\ell$ for $\theta = 0^\circ$ and $\theta = 90^\circ$. \\
+
+(c) Draw the projections you would see at $\theta = 0^\circ$ and $\theta = 90^\circ$.\\
+
+(d) Sketh the backprojection image you would get at $\theta = 0^\circ$ (without filtering). 
+
+\vspace{12pt}
+
+% Your Answer goes here
+
+\end{document}
